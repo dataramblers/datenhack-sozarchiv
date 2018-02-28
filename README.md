@@ -11,7 +11,11 @@ werden, der beste Beitrag wird prämiert.
 
 - [Bildarchiv des Schweizerischen Arbeiterhilfswerks (SAH)](https://data.stadt-zuerich.ch/dataset/sozialarchiv-sah)
 
-Vorhandene Metadaten:
+Vorhandene Metadaten (Stand 28.2.2018):
+
+Lizenz der Metadaten: CC0
+
+CSV:
 
 - **Signatur**: Eindeutige Signatur des Fotos (Typ: CHAR)
 - **Titel**: Titel und Beschreibung des Fotos (Typ: CHAR)
@@ -19,12 +23,22 @@ Vorhandene Metadaten:
 - **Ort**: Ortsangabe, wo das Foto geschossen wurde. Das Attribut beinhaltet verschiedene räumliche Gruppierungen: «Kontinent;Land;Region;Ort». Z.B. «Europa;Frankreich;Rhône-Alpes;Lyon». (Typ: CHAR)
 - Die Zeit-, Ort- und Schlagwortdaten sind jeweils absteigend von sehr allgemein zu sehr konkret aufgelistet.
 
-Abzuklären: Nutzung der Daten auf https://www.bild-video-ton.ch/
 
-- werden vom SozArch nicht mit veröffentlicht, sind aber zugänglich
-- auf diesen Daten liegt copyright SozArch
-- intellektuell erstellte Schlagwörter
-- bilden auch die Archivstruktur ab
+JSON:
+
+
+- **Signatur**: Eindeutige Signatur des Fotos (Typ: string)
+- **Objekttraeger**: "Papierabzug", "anderes 3-D Objekt", "Druck A4 und kleiner", "Druck grösser als A4, Plakat", "Ansteckobjekt" (Typ: string)
+- **Titel**: Titel und Beschreibung des Fotos (Typ: string)
+- **Detailinformation**: zusätzliche Infos zu Bildinhalt, Entstehungskontext, ... (Typ: string)
+- **Start**, **Ende**: Zeitangabe, wann das Foto entstanden ist. Werte beinhalten das letzte Glied der Kette im Feld **Zeit** (vgl. CSV, bzw. https://www.bild-video-ton.ch/). Z.B. «Neuzeit;20.Jh;1901-1950;1941-1950;1944» -> "Start" : "1944", "Ende" : "1944"; oder «Neuzeit;20.Jh;1901-1950;1950-1960» -> "Start" : "1950", "Ende" : "1960". (Typ: INT)
+- **Ort**: Ortsangabe, wo das Foto geschossen wurde. Das Attribut beinhaltet verschiedene räumliche Gruppierungen: «Kontinent;Land;Region;Ort». Z.B. «Europa;Frankreich;Rhône-Alpes;Lyon». (Typ: string)
+- **Serientitel**: z.B. «Ordner A: "Lyon 1944"», bildet Archivstruktur ab (Typ: string)
+- **Schlagwoerter**: intellektuelle Beschlagwortung, verwendet [Helvetosaurus](https://bartoc.org/en/node/675), eine einsprachige, helvetisierte Version von [EUROVOC](https://bartoc.org/en/node/15); der Thesaurus wird seit kurzem nicht mehr gepflegt; eine el. Kopie beim SozArch erhältlich. (Typ: string)
+- **Personen**: dargestellte Personen, tlw. mit Lebensdaten (Typ: string)
+- **Urheber**: Personen, Körperschaften, tlw. mit Ortsangabe (Typ: string)
+
+- Die Ort- und Schlagwortdaten sind jeweils absteigend von sehr allgemein zu sehr konkret aufgelistet.
 
 ### Use Cases
 
