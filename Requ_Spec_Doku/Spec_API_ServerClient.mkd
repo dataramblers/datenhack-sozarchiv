@@ -1,0 +1,25 @@
+# API specification Server-Client API
+
+First thoughts of Andrea, who has never designed an API before:
+
+modules of get functions we need:
+
+- get ID list of all pics
+- get ID list, filtered by x
+- get ID list, sorted by y
+- get a pic object with all metadata (includes "signature", which is need for the creation of the IIIF-pic-URL
+- get URL of the IIIF manifest of a specified pic or list of pics
+
+## Hintergrund: Use Cases
+
+Wir fangen mit einer minimalen Standard-Applikation an, mit der man sich Bilder und dazugehörige Metadaten anschauen und sie sortieren kann. Je nachdem, was unsere Daten-Gruppe zu den Daten anreichert, implementieren wir dafür zunächst basale Sortier- und Filterfunktionen.
+
+Entsprechend starten wir mit folgenden User Stories:
+
+Als Archivnutzer_in möchte ich...
+
+- ... ein Bild und die zugehörigen Metadaten in einer Ansicht anschauen.
+- ... alle Bilder durchsehen, um mir einen Überblick zu verschaffen.
+- ... Bilder verschieden sortieren oder filtern, um mich im grossen Bestand orientieren zu können.
+
+

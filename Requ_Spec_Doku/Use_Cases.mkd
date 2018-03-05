@@ -1,0 +1,39 @@
+# Use Cases und User Stories
+
+Wir fangen mit einer minimalen Standard-Applikation an, mit der man sich Bilder und dazugehörige Metadaten anschauen und sie sortieren kann. Je nachdem, was unsere Daten-Gruppe zu den Daten anreichert, implementieren wir dafür zunächst basale Sortier- und Filterfunktionen.
+
+Entsprechend starten wir mit folgenden User Stories:
+
+Als Archivnutzer_in möchte ich...
+
+- ... ein Bild und die zugehörigen Metadaten in einer Ansicht anschauen.
+- ... alle Bilder durchsehen, um mir einen Überblick zu verschaffen.
+- ... Bilder verschieden sortieren oder filtern, um mich im grossen Bestand orientieren zu können.
+
+# Weiterführende Ideen aus der Daten- und Entwicklungsarbeit heraus
+
+## Idee: Verknüpfung zu externen Daten über das Feld "Schlagwoerter"
+
+Da das Feld den Helvetosaurus verwendet: Gibt es andere Daten in anderen Archiven, Bibliotheken o.ä., die für unsere Fotos relevant und interessant sind, und mit denen man etwas Cooles machen könnte? Wen könnte man dazu fragen, wer kennt die relevanten Schweizer Bestände?
+
+- **Schlagwoerter**: intellektuelle Beschlagwortung, verwendet [Helvetosaurus](https://bartoc.org/en/node/675), eine einsprachige, helvetisierte Version von [EUROVOC](https://bartoc.org/en/node/15); der Thesaurus wird seit kurzem nicht mehr gepflegt; eine el. Kopie beim SozArch erhältlich. (Typ: string)
+
+## Use Cases, die die API zwischen Server und Client besonders gut nutzen?
+
+Falls sich das Interesse und der Arbeitsschwerpunkt weiter auf API-Plattform konzentrieren: Was ermöglicht dieses API-Design, was für den User spürbar ist? (falls es etwas gibt)
+
+# History
+
+## Stand 1. Februar
+
+Wir fangen mit einer minimalen Standard-Applikation an, mit der man sich Bilder und dazugehörige Metadaten anschauen und sie sortieren kann. Je nachdem, was unsere Daten-Gruppe zu den Daten anreichert, implementieren wir dafür zunächst basale Sortier- und Filterfunktionen. Bei der Arbeit an an diesem Standard-Minimal-Ansatz sammeln wir weitere Ideen, was man noch "Cooles" mit den Bildern und Daten sowie mit den uns interessierenden Technologien und Tools machen könnte.
+
+Entsprechend starten wir mit folgenden User Stories:
+
+Als Archivnutzer_in möchte ich...
+
+- ... ein Bild und die zugehörigen Metadaten in einer Ansicht anschauen.
+- ... alle Bilder durchsehen, um mir einen Überblick zu verschaffen.
+- ... Bilder verschieden sortieren oder filtern, um mich im grossen Bestand orientieren zu können.
+
+## Erste Ideensammlung vor 1. Februar
