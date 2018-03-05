@@ -10,21 +10,21 @@ Als Archivnutzer_in möchte ich...
 - ... alle Bilder durchsehen, um mir einen Überblick zu verschaffen.
 - ... Bilder verschieden sortieren oder filtern, um mich im grossen Bestand orientieren zu können.
 
-# Weiterführende Ideen aus der Daten- und Entwicklungsarbeit heraus
+## Weiterführende Ideen aus der Daten- und Entwicklungsarbeit heraus
 
-## Idee: Verknüpfung zu externen Daten über das Feld "Schlagwoerter"
+### Idee: Verknüpfung zu externen Daten über das Feld "Schlagwoerter"
 
 Da das Feld den Helvetosaurus verwendet: Gibt es andere Daten in anderen Archiven, Bibliotheken o.ä., die für unsere Fotos relevant und interessant sind, und mit denen man etwas Cooles machen könnte? Wen könnte man dazu fragen, wer kennt die relevanten Schweizer Bestände?
 
 - **Schlagwoerter**: intellektuelle Beschlagwortung, verwendet [Helvetosaurus](https://bartoc.org/en/node/675), eine einsprachige, helvetisierte Version von [EUROVOC](https://bartoc.org/en/node/15); der Thesaurus wird seit kurzem nicht mehr gepflegt; eine el. Kopie beim SozArch erhältlich. (Typ: string)
 
-## Use Cases, die die API zwischen Server und Client besonders gut nutzen?
+### Use Cases, die die API zwischen Server und Client besonders gut nutzen?
 
 Falls sich das Interesse und der Arbeitsschwerpunkt weiter auf API-Plattform konzentrieren: Was ermöglicht dieses API-Design, was für den User spürbar ist? (falls es etwas gibt)
 
-# History
+## History
 
-## Stand 1. Februar
+### Stand 1. Februar
 
 Wir fangen mit einer minimalen Standard-Applikation an, mit der man sich Bilder und dazugehörige Metadaten anschauen und sie sortieren kann. Je nachdem, was unsere Daten-Gruppe zu den Daten anreichert, implementieren wir dafür zunächst basale Sortier- und Filterfunktionen. Bei der Arbeit an an diesem Standard-Minimal-Ansatz sammeln wir weitere Ideen, was man noch "Cooles" mit den Bildern und Daten sowie mit den uns interessierenden Technologien und Tools machen könnte.
 
@@ -36,4 +36,93 @@ Als Archivnutzer_in möchte ich...
 - ... alle Bilder durchsehen, um mir einen Überblick zu verschaffen.
 - ... Bilder verschieden sortieren oder filtern, um mich im grossen Bestand orientieren zu können.
 
-## Erste Ideensammlung vor 1. Februar
+### Erste Ideensammlung vor 1. Februar
+
+- Als Archivnutzerin möchte ich ein Bild und die zugehörigen Metadaten in einer Ansicht anschauen.
+- Als Archivnutzerin möchte ich eine Liste der Bildtitel aller Bilder von einem bestimmten Ort, in Kombination mit einer bestimmten Zeit überfliegen, um anhand der Bildtitel möglicherweise interessante Bilder für mich zu finden. Wenn ich vom Titel her denke, dass mich ein Bild interessieren könnte, möchte ich mit minimalstem Aufwand einen Blick darauf werfen, um zu sehen, ob es ist, was ich dachte (z.B. per Mouse-Over wie bei e-codices, oder per Klick).
+- Als Archivnutzerin möchte ich die Bildertitel durchsuchen, um für mich interessante Bilder zu finden. Mein Suchbegriff soll möglichst semantisch "übersetzt" werden, damit ich alle inhaltlich relevanten Bilder finde.
+- Als Archivnutzerin (SAH) möchte ich Bilder nach inhaltlichen Eigenschaften des Abgebildeten filtern, z.B. nach: abgebildete Personen (z.B. Kinder, Erwachsene, Geschlecht), abgebildete Tätigkeiten (z.B. spielen, demonstrieren, in Empfang nehmen), Institution oder Anlass (z.B. Fabrik xy, Fest xy)
+- Als Archivnutzer möchte ich Bilder inhaltlich geordnet durchsehen können, um einen Eindruck von der inhaltlichen Qualität des Bestandes zu kriegen
+- Als Modeforscherin interessieren mich die abgebildeten Kleider der 40er und 50er Jahre.
+- Als Möbelforscherin interessieren mich die abgebildeten Möbel, die vom SAH gespendet wurden.
+- Als Kunstwissenschaftlerin interessieren mich fotografisch-ästhetische Eigenschaften der Bilder (z.B. Komposition, Ausschnitt, ...?).
+- Als Historikerin der Arbeiterschicht interessieren mich...???
+- Wenn mich ein Bild von einem Ort interessiert, den ich nicht kenne, möchte ich per Klick auf den genannten Ort den Ort auf der Karte sehen und mehr Informationen dazu erhalten, insbesondere Informationen über die spezifische Beziehung des SAH zu diesem Ort.
+- Als SAH-Forscherin möchte ich den Umfang und die Struktur des Gesamtbestandes verstehen, um meine Funde wissenschaftlich fundiert methodisch einzuordnen (z.B. hinsichtlich Repräsentativität). Dafür möchte ich zum Beispiel sehen, wieviele Bilder anteilig pro Ort oder pro Zeitraum vorhanden sind, und wie dies im Verhältnis zur Aktivitäts-Intensität des SAH an diesen Orten und zu diesen Zeiten steht.
+- Als politisch interessierter Alltagsmensch möchte ich mal eine etwas andere Postkarte zu meinem Wohn- oder Ferienort erstellen, zum Beispiel, um einen besonderen Urlaubsgruß oder einen Gruß zum 1. Mai zu verschicken. Oder ich möchte eine besondere Glückwunschkarte zum Geburtstag einer politisch interessierten Freundin kreieren, mit einem Foto, das an deren Geburtstag aufgenommen wurde.
+- Als Verlag möchte ich attraktive Bilder für informative Kalender finden.
+- Als Bildagentur möchte ich Bilder mit berühmten Personen finden. [Oder wie oder was suchen Bildagenturen? Gibt es die überhaupt noch?]
+- Als Archivnutzerin möchte ich Bilder markieren, die ich interessant finde. Das Programm soll entdecken, sobald es zwischen meinen markierten Bildern Ähnlichkeiten gibt, und soll mir weitere ähnliche Bilder anzeigen. ("ähnlich" könnte alles mögliche sein, von Mustererkennung im Bild über Metadaten über Wörter im Titel-Feld, bis zu ...).
+- Als Forscherin möchte ich Bilder taggen und gruppieren, um meine bisherigen Funde später gleich wieder zu finden und zu überblicken, sowie als ersten Auswertungsschritt für meine Forschungsfrage.
+- Als Archiv, das wenig Finanzmittel hat, möchte ich die Metadaten, die Forschende während ihrer Arbeit mit meinem Archivmaterial kreieren, in meine Bestandsbeschreibung einfliessen lassen.
+- Als Forscherin, die nur exemplarisch mit Bildern arbeitet, möchte ich Bilder in meinem Literaturverwaltungsprogramm mit verwalten.
+- Als historisch interessierte Person möchte ich eine Diashow aus Archivbildern als Bildschirmschoner laufen lassen.
+- Als Popular-Culture-Fan möchte ich (Poster, Magnete, Blechschilder, ???) aus den Werbeplakaten des LVZ machen.
+- Als Ausstellungskuratorin suche ich ausstellungsgeeignete, repräsentative Bilder im Archivbestand.
+- Als Forscherin zum Thema xy möchte ich Bilder und Daten aus anderen relevanten Archiven, Datenbanken und Informationsquellen direkt mit nutzen, oder zumindest eine Linkliste aller für mich relevanten Datenquellen angezeigt bekommen.
+- Als enthusiastische Hobbyforscherin möchte ich die Möglichkeit haben, Metadaten zu den Bildern zu ergänzen und diese für andere sichtbar zu machen
+- Als ebenso enthusiastischer Hobbyforscher möchte ich Personen, Gegenstände etc. auf den Bildern taggen können und diese Tags mit anderen teilen
+- Als faule, doch kenntnisreiche Hobbyforscherin möchte ich eine Rangliste der "Top-Kontribuierenden" haben, um meinen Ehrgeiz anzustacheln
+- Als Archivarin möchte ich mit wenig IT-Kenntnissen weitere Bestände über die Software zugänglich machen
+
+#### Service zur Anreicherung und Verlinkung von Metadaten
+
+Bereitstellung eines (kleinen) service, der
+- die Anreicherung / Erweiterung der Daten ermöglicht
+- Serialisierungsbackend
+- Austausch / Verlinkung der Daten mit grösseren sets (speziell wikidata)
+
+Möglicher Workflow [oder was genau ist mit so einem Service gemeint? AN]:
+
+- Ich rufe eine Webseite auf.
+- Ich gebe in einem Dialog die tif-zip-Datei (Bilder) und die zugehörige csv-Datei (Metadaten) an.
+- Ich gebe an, was für Metadaten ich habe. Daraufhin bekomme ich eine Auswahl von gängigen Normdaten, mit denen ich meine Daten gerne (halb-)automatisch angereichert oder verlinkt haben möchte.
+- Ich sehe eine komfortable Anzeige meiner Metadaten und bekomme komfortable Eingabefelder, um weitere Metadaten per Hand einzugeben, wo möglich gruppiert für mehrere Bilder auf einmal.
+
+#### Anreichern / Erweitern der bereits vorhandenen Daten
+
+- [Andrea:] Ich sehe nicht, wie man Ort- und Zeitangabe anreichern/erweitern könnte. Und viel mehr gibts nicht an Metadaten (wenn ich das richtig sehe). Kann jemand ein Beispiel geben?
+- [Andrea:] Ich sehe eher das Potenzial zur Standardisierung und Verknüpfung mit Normdaten. Je nach Qualität der Ausgangsdaten könnte das allerdings viel händisches Datenaufräumen bedeuten, und das ist nicht das, was man in einem Hackathon macht, oder?
+- [Andrea:] Ich habe mal auszugsweise angeschaut, was im Feld "Titel" eigentlich so drin steht. Jemand, die/der versiert in automatisierten Textanalysen ist, könnte vielleicht aus den Titel-Feldern was rausholen, was als zusätzliche Verschlagwortung verwendbar wäre? Ich bin leider nicht so jemand Versiertes.
+
+#### Serialisierungsbackend
+
+- [Andrea:] Was wäre eine exemplarische Endanwendung, die man mit einem Serialisierungsbackend realisieren könnte, die ohne nicht geht? Ich denke, wir bräuchten etwas Vorzeigbares, was den Nutzen anschaulich macht und womit Leute konkret arbeiten können. Vielleicht ist bei den Use Cases / User Stories was passendes dabei?
+
+#### Austausch / Verlinkung der Daten mit grösseren sets (speziell wikidata)
+
+- [Andrea:] Wir können mit Orten und mit Zeiten verlinken. Mehr Metadaten haben wir nicht. Aber Orte und Zeiten sind so generisch, dass sich daraus keine weiteren interessanten "Hangelpfade" in einer Graphenstruktur ergeben. Bzw. zu einem Ort oder zu einer Zeit gibt es jeweils hunderte weiterführende Pfade. Oder an was denkt ihr dabei? Ist z.B. sowas wie "Was war an diesem Tag in dieser Stadt sonst noch los?" realisierbar?
+
+#### Visualisierungen von Metadaten
+- Anordnung auf Zeitachse (da vielfach vorhanden)
+- Anordnung auf Karte (da vielfach vorhanden)
+- Anregung: In Handschriftensammlung anhand von verschiedenen Metadaten stufenweise eintauchen, wobei bei jeder Auswahl die gesamte Sammlung wie in einem Diagramm visualisiert wird: [Demonstrator](https://uclab.fh-potsdam.de/fw4/), [Screenshots](https://uclab.fh-potsdam.de/vikus/) (falls Demonstrator nicht läuft)
+- Anregung: Visualisierung Münzkabinett mit interessanter Implementation von Auswahl-Filtern: [Visualisierung](https://uclab.fh-potsdam.de/coins/), [Auswahl-Filter](http://ikmk.smb.museum/tag_search?lang=de)
+
+#### Innovativer Bildviewer
+
+- "Spaziergänge" durch eine Sammlung, basierend auf IIIF
+  - Spaziergang durch Kunstgalerie ([Digirati](https://digirati.com)): [Demonstrator](http://digirati-co-uk.github.io/iiif-gallery/src/), [Code](https://github.com/digirati-co-uk/iiif-gallery), [Anmerkungen zum Code](https://github.com/digirati-co-uk/iiif-gallery/blob/master/design-notes.md)
+
+[Günter:]
+
+- ich finde Bildviewer natürlich sehr schön
+- würde jedoch versuchen, etwas zu nehmen was schon da ist
+- spontan fallen mir drei Sachen ein
+  - Multivio von Rero (mit öffentlichem e-lib Geld finanziert)
+    - https://www.multivio.org/main/
+    - https://www.frontiersin.org/articles/10.3389/fninf.2014.00053/full
+  - DFG Viewer (http://dfg-viewer.de/)
+  - IIIF hier fällt mir sponatn der Vortrag von Leander Seige auf dem letzten 34c3 ein
+    - https://media.ccc.de/v/34c3-8853-international_image_interoperability_framework_iiif_kulturinstitutionen_schaffen_interoperable_schnittstellen_fur_digitalisiertes_kulturgut
+    - Wir kennen Leander recht gut.Ohne mir das im Detail angesehen zu haben, bin ich mir sicher, dass da schon sehr viele nützliche Dinge vorhanden sind
+
+- [Andrea:] Ich sehe das genauso wie Günter. Wenn man die tif-Dateien auf einen IIIF-Server stellen würde, könnte man verschiedene bereits vorhandene IIIF-Viewer benutzen. Anders als bei Manuskripten oder Kunstwerken geht es beim Anschauen der Archivbilder wohl eher nicht um Detailansichten, sondern um geschickte Möglichkeiten, durch das Material durchzublättern, es zu entdecken und zu erschließen.
+
+#### Bildannotation
+
+...
+
+#### Exploration des Bestandes
+
+...
