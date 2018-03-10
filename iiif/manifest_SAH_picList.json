@@ -1,0 +1,159 @@
+{
+
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "http://iiif.datarambler.io.../manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Bildarchiv des Schweizerischen Arbeiterhilfswerks (SAH) - Oeuvre suisse d'entraide ouvrière (OSEO)",
+    "description": "Während der letzten Jahre des Zweiten Weltkriegs nahm das Schweizerische Arbeiterhilfswerk (SAH) eine ausgedehnte Versorgungs- und Unterstützungstätigkeit in den umliegenden Ländern auf. Das Bildarchiv des SAH umfasst mehr als 1'900 Fotos. Der Fokus liegt auf den 1940er und 1950er Jahren.",
+    "sequences": [
+        {
+            "@id": "http://iiif.dataramblers.io/sequence/normal",
+            "@type": "sc:Sequence",
+            "label": "Normal",
+            "canvases": [
+                {
+                    "@id": "http://iiif.datarambler.io/canvas/Sozarch_F_5025-Fa-001",
+                    "@type": "sc:Canvas",
+                    "label": "Sozarch_F_5025-Fa-001",
+                    "width": 3464,
+                    "height": 4898,
+                    "metadata": [
+                        {   "label": "Beschreibung",
+                            "value": "Der Camion des SAH's trifft in Lyon ein um beim Verteilungsdienst eingesetzt zu werden. Auf dem Lastwagen: Don Suisse. (O.S.E.O.) und Schweizer Fahne"
+                        },
+                        {
+                            "label": "Ort",
+                            "value": "Lyon"
+                        },
+                        {
+                            "label": "Fotografiert von",
+                            "value": "Tronchet, Lucien (1902-1982)"
+                        }
+                    ],
+                    "images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://713e97ac-487e-4329-bde7-66b73564df40",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://iiif.dataramblers.io/5025-Fa-1/Sozarch_F_5025-Fa-001.tif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://iiif.dataramblers.io/5025-Fa-1/Sozarch_F_5025-Fa-001.tif",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"png"
+											],
+											"qualities": [
+												"color",
+												"gray"
+											],
+											"supports": [
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											]
+										}
+									]
+								},
+								"height": 5919,
+								"width": 4137
+							},
+							"on": "http://iiif.datarambler.io/canvas/Sozarch_F_5025-Fa-001"
+						}
+					]
+                },
+                {
+                    "@id": "http://iiif.datarambler.io/canvas/Sozarch_F_5025-Fa-002",
+                    "@type": "sc:Canvas",
+                    "label": "Sozarch_F_5025-Fa-002",
+                    "width": 3464,
+                    "height": 4898,
+                    "metadata": [
+                        {
+                            "label": "Beschreibung",
+                            "value": "Lyon-Vénissieux, Cité Berliet. Rue principale. Zerbombter Stadtteil"
+                        },
+                        {
+                            "label": "Ort",
+                            "value": "Lyon"
+                        },
+                        {
+                            "label": "Fotografiert von",
+                            "value": "unbekannt"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "http://iiif.dataramblers.io/5025-Fa-1/Sozarch_F_5025-Fa-002.tif/full/full/0/default.jpg",
+                                "format": "image/jpeg",
+                                "@type": "dctypes:Image",
+                                "width": 3515,
+                                "height": 4925,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/1/context.json",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+                                    "@id": "http://iiif.dataramblers.io/5025-Fa-1/Sozarch_F_5025-Fa-002.tif"
+                                }
+                            },
+                            "on": "http://iiif.datarambler.io/canvas/Sozarch_F_5025-Fa-002"
+                        }
+                    ]
+  
+                },
+                {
+                    "@id": "http://iiif.datarambler.io/canvas/Sozarch_F_5025-Fa-003",
+                    "@type": "sc:Canvas",
+                    "label": "Sozarch_F_5025-Fa-003",
+                    "width": 3464,
+                    "height": 4898,
+                    "metadata": [
+                        {
+                            "label": "Beschreibung",
+                            "value": "Page non retrouvée"
+                        },
+                        {
+                            "label": "Ort",
+                            "value": "Lyon-Vénissieux, Cité Berliet, Zerbombte Schulgebäude"
+                        },
+                        {
+                            "label": "Fotografiert von",
+                            "value": "keine Angabe"
+                        }
+                    ],
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "http://iiif.dataramblers.io/5025-Fa-1/Sozarch_F_5025-Fa-003.tif/full/full/0/default.jpg",
+                                "format": "image/jpeg",
+                                "@type": "dctypes:Image",
+                                "width": 3515,
+                                "height": 4925,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/1/context.json",
+                                    "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+                                    "@id": "http://iiif.dataramblers.io/5025-Fa-1/Sozarch_F_5025-Fa-003.tif"
+                                }
+                            },
+                            "on": "http://iiif.datarambler.io/canvas/Sozarch_F_5025-Fa-003"
+                        }
+                    ]
+                }
+             ]
+        }
+    ],
+    "attribution": "Bilder: ??? Metadaten: CC-0",
+    "license": "https://www.sozialarchiv.ch/archiv/benutzung/nutzungsbestimmungen/",
+    "viewingHint": "individuals"
+}
