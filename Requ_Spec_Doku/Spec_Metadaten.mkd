@@ -1,0 +1,232 @@
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>SozArch JSON</strong></td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>Daten auf Server (tbd)</strong></td>
+<td style="text-align: left;"><strong>IIIF Manifest JSON</strong></td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Feld</strong></td>
+<td style="text-align: left;"><strong>Beschreibung</strong></td>
+<td style="text-align: left;"><strong>Werte</strong></td>
+<td style="text-align: left;"><strong>Typ</strong></td>
+<td style="text-align: left;"><strong>Anmerkungen</strong></td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>Feldname</strong></td>
+<td style="text-align: left;"><strong>Typ</strong></td>
+<td style="text-align: left;"><strong>Beschreibung</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Signatur</strong></td>
+<td style="text-align: left;">Eindeutige Signatur des Fotos</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“label”,”value” pair</strong></td>
+<td style="text-align: left;">plain text + HTML or plain text</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Objekttraeger</strong></td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">&quot;Papierabzug&quot;, &quot;anderes 3-D Objekt&quot;, &quot;Druck A4 und kleiner&quot;, &quot;Druck grösser als A4, Plakat&quot;, &quot;Ansteckobjekt&quot;</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>label + value</strong></td>
+<td style="text-align: left;">s.o.</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Titel</strong></td>
+<td style="text-align: left;">Titel und Beschreibung des Fotos</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;">Problem: Titel UND Beschreibung. Beginnt in vielen Fällen mit Orts- und Jahresangabe. Was können wir daraus Schöneres machen?</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>label</strong></td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>[leer]</strong></td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>description</strong></td>
+<td style="text-align: left;">HTML or plain text</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Detailinformation</strong></td>
+<td style="text-align: left;">zusätzliche Infos zu Bildinhalt, Entstehungskontext, ...</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“label”,”value” pair</strong></td>
+<td style="text-align: left;">s.o.</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Start</strong></td>
+<td style="text-align: left;">Zeitangabe, wann das Foto entstanden ist. Werte beinhalten das letzte Glied der Kette im Feld **Zeit** (vgl. CSV, bzw. https://www.bild-video-ton.ch/). Z.B. «Neuzeit;20.Jh;1901-1950;1941-1950;1944» -&gt; &quot;Start&quot; : &quot;1944&quot;, &quot;Ende&quot; : &quot;1944&quot;; oder «Neuzeit;20.Jh;1901-1950;1950-1960» -&gt; &quot;Start&quot; : &quot;1950&quot;, &quot;Ende&quot; : &quot;1960&quot;.</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“label”,”value” pair</strong></td>
+<td style="text-align: left;">s.o.</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Ende</strong></td>
+<td style="text-align: left;">siehe “Start”</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">Integer</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“label”,”value” pair</strong></td>
+<td style="text-align: left;">s.o.</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Ort</strong></td>
+<td style="text-align: left;">Ortsangabe, wo das Foto geschossen wurde. Das Attribut beinhaltet verschiedene räumliche Gruppierungen: «Kontinent;Land;Region;Ort». Z.B. «Europa;Frankreich;Rhône-Alpes;Lyon».</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;">jeweils absteigend von sehr allgemein zu sehr konkret aufgelistet</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“label”,”value” pair</strong></td>
+<td style="text-align: left;">s.o.</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Serientitel</strong></td>
+<td style="text-align: left;">z.B. «Ordner A: &quot;Lyon 1944&quot;», bildet Archivstruktur ab</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“label”,”value” pair</strong></td>
+<td style="text-align: left;">s.o.</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Schlagwoerter</strong></td>
+<td style="text-align: left;">intellektuelle Beschlagwortung, verwendet [Helvetosaurus](https://bartoc.org/en/node/675), eine einsprachige, helvetisierte Version von [EUROVOC](https://bartoc.org/en/node/15); der Thesaurus wird seit kurzem nicht mehr gepflegt; eine el. Kopie beim SozArch erhältlich.</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;">jeweils absteigend von sehr allgemein zu sehr konkret aufgelistet. Hat der Helvetosaurus IDs für die Einträge, für eindeutige Verlinkung?</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“label”,”value” pair</strong></td>
+<td style="text-align: left;">s.o.</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Personen</strong></td>
+<td style="text-align: left;">dargestellte Personen, tlw. mit Lebensdaten</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“label”,”value” pair</strong></td>
+<td style="text-align: left;">s.o.</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Urheber</strong></td>
+<td style="text-align: left;">Personen, Körperschaften, tlw. mit Ortsangabe</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">String</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><strong>“attribution” or “licence”</strong></td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;">“attribution”: Text that must be shown when the resource it is associated with is displayed or used. “license”. A link to an external resource that describes the license or rights statement under which the resource may be used. The rationale for this being a URI and not a human readable label is that typically there is one license for many resources, and the text is too long to be displayed to the user along with the object.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><strong>ID</strong></td>
+<td style="text-align: left;"><strong><br />
+</strong></td>
+<td style="text-align: left;"><br />
+</td>
+<td style="text-align: left;"><br />
+</td>
+</tr>
+</tbody>
+</table>
