@@ -1,9 +1,9 @@
 # datenhack-sozarchiv
 Datenhack-Projekt Schweizerisches Sozialarchiv
 
-Auf einem Flyer sucht das Schweizerische Sozialarchiv den "besten Hack seiner freien Daten".
+~~Auf einem Flyer sucht das Schweizerische Sozialarchiv den "besten Hack seiner freien Daten".
 Solche "Hacks" können bis zum 31. Mai 2018 eingereicht
-werden, der beste Beitrag wird prämiert.
+werden, der beste Beitrag wird prämiert.~~
 
 ## Der Plan (Stand 1. Februar)
 
